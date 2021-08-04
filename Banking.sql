@@ -1,0 +1,10 @@
+show databases;
+create database Banking;
+use Banking;
+drop table Customers;
+create table Customers(Name varchar(10) NOT NULL,Address varchar(20),Mobile_N0 int(11)NOT NULL,Identity_Card_no int(10)NOT NULL,PRIMARY KEY(Name));
+show tables;
+truncate table Customers;
+select * from Customers;
+create table Account(Acc_no int(11),Name varchar(10),PRIMARY KEY(Acc_no));
+show tables;
